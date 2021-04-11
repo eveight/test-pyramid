@@ -60,4 +60,4 @@ def home2(request):
 
 
 
-# Its not git commentj
+# Its not git 
