@@ -46,18 +46,4 @@ def home2(request):
         # being used.
         temp_file_path = this_directory + filename
         url = 'image/' + filename
-        print(temp_file_path)
-        # Finally write the data to a temporary file
-        input_file.seek(0)
-        with open(temp_file_path, 'wb') as output_file:
-            shutil.copyfileobj(input_file, output_file)
-
-        new_img = models.Image(id=request.POST['id'], img=url)
-        request.dbsession.add(new_img)
-    return {'obj': 'obj11'}
-
-
-
-
-
-# Its your
+ghhhhhhhhhhhhhhhhhhhhhhh
