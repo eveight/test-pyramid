@@ -60,4 +60,4 @@ def home2(request):
 
 
 
-# Its fucking git comment
+# Its git comment
