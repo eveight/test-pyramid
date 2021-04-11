@@ -60,4 +60,4 @@ def home2(request):
 
 
 
-# Changed
+# Changed on remote 
